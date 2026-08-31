@@ -1,0 +1,18 @@
+# ====================================================================
+# DEPENDENCIAS CIENTÍFICAS CENTRALES PARA ASGARD V24
+# ====================================================================
+numpy>=1.22.0, <2.0.0      # Manipulación matricial y álgebra lineal rápida
+scipy>=1.8.0, <2.0.0      # Operadores de interpolación y optimización
+pandas>=1.4.0, <2.2.0     # Exportación y estructuración de reportes CSV
+
+# ====================================================================
+# PERSISTENCIA CIENTÍFICA E INTERFACES GRÁFICAS
+# ====================================================================
+h5py>=3.6.0, <4.0.0       # Guardado binario comprimido de checkpoints exaescala
+matplotlib>=3.5.0, <4.0.0  # Renderizado del motor óptico de Ray-Tracing (PNG)
+plotly>=5.6.0, <6.0.0      # Gráficos interactivos 3D de las líneas de la ergosfera
+
+# ====================================================================
+# ENTORNO DE VALIDACIÓN AUTOMATIZADA (TESTING)
+# ====================================================================
+pytest>=7.0.0, <8.0.0     # Suite de ejecución de pruebas unitarias de rigor físico
